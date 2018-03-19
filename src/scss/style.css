@@ -1,0 +1,261 @@
+body {
+  background: #333;
+  color: #fff; }
+
+.card {
+  background: linear-gradient(90deg, #008ed6, #00e8d6); }
+  .card #form-btn {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px; }
+    .card #form-btn:hover {
+      color: #00e8d6; }
+
+.navbar {
+  border-bottom: #00e8d6 3px solid;
+  opacity: 0.8;
+  font-weight: 700; }
+
+#home {
+  background-image: url("../img/tlo-9.png");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+  position: relative; }
+  #home .dark-overlay {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%; }
+  #home .home-inner {
+    padding-top: 100px; }
+  #home .card-form {
+    opacity: 0.9; }
+  #home .fa {
+    color: #fff;
+    background: linear-gradient(90deg, #008ed6, #00e8d6);
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+    opacity: 0.9; }
+
+#explore-section {
+  background-image: url("../img/tlo-11.png");
+  background-size: cover;
+  background-attachment: fixed; }
+  #explore-section .fa {
+    color: #fff;
+    background: linear-gradient(90deg, #e71470 25%, #fe6b40 75%);
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+    opacity: 0.9; }
+  #explore-section .hexagon {
+    position: relative;
+    width: 300px;
+    height: 173.21px;
+    margin: 0 auto;
+    background-image: url("../img/box.jpg");
+    background-size: auto 346.4102px;
+    background-position: center;
+    /*counter transform the bg image on the caps*/ }
+    #explore-section .hexagon .hexTop,
+    #explore-section .hexagon .hexBottom {
+      position: absolute;
+      z-index: 1;
+      width: 212.13px;
+      height: 212.13px;
+      overflow: hidden;
+      -webkit-transform: scaleY(0.5774) rotate(-45deg);
+      -ms-transform: scaleY(0.5774) rotate(-45deg);
+      transform: scaleY(0.5774) rotate(-45deg);
+      background: inherit;
+      left: 43.93px; }
+    #explore-section .hexagon .hexTop:after,
+    #explore-section .hexagon .hexBottom:after {
+      content: "";
+      position: absolute;
+      width: 300.0000px;
+      height: 173.20508075688775px;
+      -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+      -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+      transform: rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+      -webkit-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+      transform-origin: 0 0;
+      background: inherit; }
+    #explore-section .hexagon .hexTop {
+      top: -106.0660px; }
+    #explore-section .hexagon .hexTop:after {
+      background-position: center top; }
+    #explore-section .hexagon .hexBottom {
+      bottom: -106.0660px; }
+    #explore-section .hexagon .hexBottom:after {
+      background-position: center bottom; }
+    #explore-section .hexagon .hexagon:after {
+      content: "";
+      position: absolute;
+      top: 0.0000px;
+      left: 0;
+      width: 300.0000px;
+      height: 173.2051px;
+      z-index: 2;
+      background: inherit; }
+
+#create-section {
+  background-image: url("../img/tlo-10.png");
+  background-size: cover;
+  background-attachment: fixed; }
+  @media all and (max-width: 767px) {
+    #create-section .extra-margin {
+      padding-top: 90px; } }
+  #create-section .fa {
+    color: #fff;
+    background: linear-gradient(90deg, #008ed6, #00e8d6);
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+    opacity: 0.9; }
+  #create-section .hexagon {
+    position: relative;
+    width: 300px;
+    height: 173.21px;
+    margin: 0 auto;
+    background-image: url("../img/box2.jpg");
+    background-size: auto 346.4102px;
+    background-position: center;
+    /*counter transform the bg image on the caps*/ }
+    #create-section .hexagon .hexTop,
+    #create-section .hexagon .hexBottom {
+      position: absolute;
+      z-index: 1;
+      width: 212.13px;
+      height: 212.13px;
+      overflow: hidden;
+      -webkit-transform: scaleY(0.5774) rotate(-45deg);
+      -ms-transform: scaleY(0.5774) rotate(-45deg);
+      transform: scaleY(0.5774) rotate(-45deg);
+      background: inherit;
+      left: 43.93px; }
+    #create-section .hexagon .hexTop:after,
+    #create-section .hexagon .hexBottom:after {
+      content: "";
+      position: absolute;
+      width: 300.0000px;
+      height: 173.20508075688775px;
+      -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+      -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+      transform: rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+      -webkit-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+      transform-origin: 0 0;
+      background: inherit; }
+    #create-section .hexagon .hexTop {
+      top: -106.0660px; }
+    #create-section .hexagon .hexTop:after {
+      background-position: center top; }
+    #create-section .hexagon .hexBottom {
+      bottom: -106.0660px; }
+    #create-section .hexagon .hexBottom:after {
+      background-position: center bottom; }
+    #create-section .hexagon .hexagon:after {
+      content: "";
+      position: absolute;
+      top: 0.0000px;
+      left: 0;
+      width: 300.0000px;
+      height: 173.2051px;
+      z-index: 2;
+      background: inherit; }
+
+#share-head {
+  background: linear-gradient(90deg, #008ed6, #00e8d6); }
+
+#share-section {
+  background-image: url("../img/tlo-1.png");
+  background-size: cover;
+  background-attachment: fixed; }
+  #share-section .fa {
+    color: #fff;
+    background: linear-gradient(90deg, #e71470 25%, #fe6b40 75%);
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+    opacity: 0.9; }
+  #share-section .hexagon {
+    /*counter transform the bg image on the caps*/ }
+    @media all and (max-width: 700px) {
+      #share-section .hexagon {
+        position: relative;
+        width: 300px;
+        height: 173.21px;
+        margin: 0 auto;
+        background-image: url("../img/box3.jpg");
+        background-size: auto 346.4102px;
+        background-position: center; } }
+    @media all and (min-width: 701px) {
+      #share-section .hexagon {
+        position: relative;
+        width: 300px;
+        height: 173.21px;
+        margin: 0 auto;
+        background-image: url("../img/box3.jpg");
+        background-size: auto 346.4102px;
+        background-position: center; } }
+    #share-section .hexagon .hexTop,
+    #share-section .hexagon .hexBottom {
+      position: absolute;
+      z-index: 1;
+      width: 212.13px;
+      height: 212.13px;
+      overflow: hidden;
+      -webkit-transform: scaleY(0.5774) rotate(-45deg);
+      -ms-transform: scaleY(0.5774) rotate(-45deg);
+      transform: scaleY(0.5774) rotate(-45deg);
+      background: inherit;
+      left: 43.93px; }
+    #share-section .hexagon .hexTop:after,
+    #share-section .hexagon .hexBottom:after {
+      content: "";
+      position: absolute;
+      width: 300.0000px;
+      height: 173.20508075688775px;
+      -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+      -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+      transform: rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+      -webkit-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+      transform-origin: 0 0;
+      background: inherit; }
+    #share-section .hexagon .hexTop {
+      top: -106.0660px; }
+    #share-section .hexagon .hexTop:after {
+      background-position: center top; }
+    #share-section .hexagon .hexBottom {
+      bottom: -106.0660px; }
+    #share-section .hexagon .hexBottom:after {
+      background-position: center bottom; }
+    #share-section .hexagon .hexagon:after {
+      content: "";
+      position: absolute;
+      top: 0.0000px;
+      left: 0;
+      width: 300.0000px;
+      height: 173.2051px;
+      z-index: 2;
+      background: inherit; }
+
+.modal-title mark {
+  display: inline-block;
+  vertical-align: baseline;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #e71470 25%, #fe6b40 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0;
+  font-size: 30px;
+  color: #475166; }
+
+/*# sourceMappingURL=style.css.map */
